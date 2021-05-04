@@ -1,0 +1,19 @@
+{
+  "appId": "com.sampleproject.app",
+  "appName": "sample-project",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "server": {
+    "url": "http://192.168.1.4:8100",
+    "cleartext": true,
+    "originalUrl": "http://192.168.1.4:8100",
+    "originalCleartext": true
+  }
+}

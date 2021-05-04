@@ -1,1 +1,10 @@
+::ng-deep .optionLocale {
+  padding: 10px;
+  background-color: rgba(191, 191, 191, 0.15);
+  border-right: 1px solid #d4d0d0;
+}
 
+::ng-deep .optionLocale > .dx-selectbox {
+  display: inline-block;
+  vertical-align: middle
+}
