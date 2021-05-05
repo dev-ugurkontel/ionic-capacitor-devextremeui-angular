@@ -6,6 +6,9 @@
 
 <ion-content>
 
+  <h1 *ngIf="true">TEST</h1>
+  <h1 *ngIf="false">TEST FALSE</h1>
+
   <form action="your-action" (submit)="onFormSubmit($event)">
     <dx-form id="form"
         [formData]="customer"
